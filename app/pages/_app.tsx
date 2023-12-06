@@ -62,7 +62,6 @@ class MyApp extends App<any, any, any> {
           <Component
             {...pageProps}
             headers={headers}
-            version={process.env.NEXT_PUBLIC_VERSION}
             router={this.router}
           />
         </Provider>
